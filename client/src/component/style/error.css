@@ -1,0 +1,72 @@
+.E-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(324deg, rgba(131,58,180,1) 0%, rgba(29,57,253,1) 50%, rgba(252,176,69,1) 100%);
+}
+.E-containe{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 30%;
+    background: rgb(131,58,180);
+    background: linear-gradient(324deg, rgba(131,58,180,1) 0%, rgba(29,57,253,1) 50%, rgba(252,176,69,1) 100%);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button.E-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-decoration: none; */
+    margin-top: 10%;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    padding-right: 0.7rem;
+    /* border: none; */
+   
+    padding-left: 0.7rem;
+}
+    button.E-btn {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+    button.E-btn {
+       
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       
+     }
+  
+     button.E-btn:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+    
+@media(max-width:380px){
+      p{
+          font-size: 0.6rem;
+      }
+      h1{
+          font-size: large;
+      }
+      .E-containe{
+          width: 85%;
+      }
+      #E-id{
+          font-size: 4rem;
+      }
+}
+@media(min-width:382px) and (max-width:780px) {
+    .E-containe{
+        width: 85%;
+    }
+}

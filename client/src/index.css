@@ -1,0 +1,13 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "BioRhyme", serif;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+
