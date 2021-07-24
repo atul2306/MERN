@@ -125,4 +125,11 @@ router.post("/register", async (req, res) => {
          console.log(err)
         }
     })
+
+  // logout ka page
+    router.get('/logout',(req,res)=>{
+        // console.log("h2");
+        res.clearCookie("jwttoken",{path:"/"})
+      res.status(200).send("user loggedOut")
+      })
 module.exports = router

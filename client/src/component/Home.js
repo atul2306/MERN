@@ -31,9 +31,9 @@ const Home = () => {
   return (
     <>
       <div className="H-container">
-        <h2 style={{ color: "#ffc107" }}>WELCOME {checkname}</h2>
+        <h1 style={{ color: "#ffc107" }}>Welcome {checkname}</h1>
         
-        <h2 style={{ color: "darkblue" }}>{show?`HAPPY to see you back`:`WE ARE THE MERN DEVELOPER`}</h2>
+        <h2 style={{ color: "darkblue" }}>{show?`Happy, to see you back`:`WE ARE THE MERN DEVELOPER`}</h2>
       </div>
     </>
   );
